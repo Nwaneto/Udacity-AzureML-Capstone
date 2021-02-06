@@ -93,6 +93,16 @@ This analysis can be improved later on by adding more information in it, utilizi
 ## Model Deployment
 After the execution of the two investigations, we select The best model which was from Auto mL run dependent on the measurement worth, and we move then to the sending and the testing of the Webservice.
 
+Instructions:
+
+*  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
+![Step1_deploy](step1_deploy.PNG "Step1_deploy")
+
+*  Deploy the model the swagger URI
+![Step2_deploy](step2_deploy.PNG "Step2_deploy")
+
+*  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
+![Step3_deploy](step3_deploy.PNG "Step3_deploy")
 
 ## Video Recording: https://youtu.be/Wt3byFsW87Q
 The Screen recording includes A working model, Demo of the deployed  model, Demo of a sample request sent to the endpoint and its response. ALso, changes regarding inference request being sent to the deployed model endpoint instead of using service.run method.
