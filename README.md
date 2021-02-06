@@ -96,13 +96,14 @@ After the execution of the two investigations, we select The best model which wa
 Instructions:
 
 *  Save and register the best model for the sending, download the conda, set the environment, download the scoring, and set the surmising config and the Aci Web administration config
-![Step1_deploy](step1_deploy.PNG "Step1_deploy")
+![Step1_deploy](save-best-model-for-sending.PNG "Step1_deploy")
 
 *  Deploy the model the swagger URI
-![Step2_deploy](step2_deploy.PNG "Step2_deploy")
+![Step2_deploy](swagger-uri.PNG "Step2_deploy")
 
 *  Testing the web service by dumping the row to JSON format, and finally pass the json row to the web service 
-![Step3_deploy](step3_deploy.PNG "Step3_deploy")
+![Step3_deploy](run-result1.PNG "Step3_deploy")
+
 
 ## Video Recording: https://youtu.be/Wt3byFsW87Q
 The Screen recording includes A working model, Demo of the deployed  model, Demo of a sample request sent to the endpoint and its response. ALso, changes regarding inference request being sent to the deployed model endpoint instead of using service.run method.
