@@ -14,8 +14,6 @@ Parkinson is a disease of the mind that prompts shaking, firmness, and trouble w
 
 This lead to the fundamental objective of this venture which is an endeavor to make a classifier to anticipate if an individual has Parkinson infection dependent on biomedical voice estimations from various individuals.
 
-![parkinson](parkinson.jpg "parkinson")
-
 ### Datasource
 
 Dataset used in the project: https://archive.ics.uci.edu/ml/datasets/parkinsons
